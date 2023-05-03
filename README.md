@@ -38,16 +38,16 @@ react-query
 ***
 ## 화면구성
 
-홈구성 및 로그인별 상세페이지 로딩 　　　　　　　　　　　회원가입 기능
+홈구성 및 로그인별 상세페이지 로딩 　　　　　　　회원가입 기능
 
-<img src="./image/home.gif" width="300" height="300">
-　　<img src="./image/singup.gif" width="300" height="300">
+<img src="./image/home.gif" width="250" height="300">
+　　<img src="./image/singup.gif" width="250" height="300">
 
 <br/>
 
 로그인 기능
 
-<img src="./image/login.gif" width="300" height="300"> 
+<img src="./image/login.gif" width="250" height="300"> 
 
 <br/>
 <br/>
