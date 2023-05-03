@@ -10,9 +10,6 @@ const instance = axios.create({
 const handleSignUp = async (props) => {
   try {
     const response = await instance.post(`/register`, {
-      headers: {
-        'x-requested-with': 'your-app-name'
-      },
       id: props.id,
       password: props.password
     })
@@ -30,9 +27,6 @@ const handleSignUp = async (props) => {
 const handleLogin = async (props) => {
   try {
     const response = await instance.post(`/login`, {
-      headers: {
-        'x-requested-with': 'your-app-name'
-      },
       id: props.id,
       password: props.password
     })
@@ -43,7 +37,7 @@ const handleLogin = async (props) => {
       return error.response.data
     }
   }
-  throw new Error(error.message)
+  // throw new Error(error.message)
 }
 
 //인가 API
@@ -53,7 +47,6 @@ const getLoginData = async () => {
     headers: {
       "Content-Type": "application/json",
       authorization: `Bearer ${accessToken}`,
-      'x-requested-with': 'your-app-name'
     }
   })
 

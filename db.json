@@ -1,0 +1,30 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "title": "임금님 귀는",
+      "content": "당나귀 귀",
+      "password": "1234",
+      "currentDate": "23/05/03 23:42",
+      "id": 2
+    },
+    {
+      "title": "대나무숲에 ",
+      "content": "소리치기",
+      "password": "1234",
+      "currentDate": "23/05/03 23:42",
+      "id": 3
+    },
+    {
+      "title": "R반에 00랑 S반에 00랑",
+      "content": "ㅎㅎ",
+      "password": "1234",
+      "currentDate": "23/05/03 23:42",
+      "id": 4
+    }
+  ]
+}
